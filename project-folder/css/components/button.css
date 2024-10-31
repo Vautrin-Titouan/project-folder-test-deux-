@@ -1,0 +1,17 @@
+button.css
+.btn-blue {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #3498db; /* Couleur principale */
+    color: #ecf0f1; /* Couleur du texte */
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 10px rgba(52, 152, 219, 0.3);
+}
+
+.btn-blue:hover {
+    background-color: #2980b9; /* Couleur au survol */
+    transform: translateY(-2px); /* Légère élévation au survol */
+}
+

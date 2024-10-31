@@ -1,0 +1,9 @@
+avatar.css
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #3498db; /* Couleur principale */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Pour s'assurer que l'image s'adapte bien dans le cercle */
+}

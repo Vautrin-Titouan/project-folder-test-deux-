@@ -1,0 +1,25 @@
+banner.css
+.banner {
+    background-image: linear-gradient(-225deg, rgba(44, 62, 80, 0.8) 0%, rgba(52, 152, 219, 0.6) 50%), url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+    color: #ffffff; /* Couleur par défaut pour le texte */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.banner h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    color: white; /* Assurez-vous que la couleur est blanche */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9); /* Ombre pour améliorer la lisibilité */
+}
+
+.banner h2 {
+    font-size: 28px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: white; /* Assurez-vous que la couleur est blanche */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre pour améliorer la lisibilité */
+}
